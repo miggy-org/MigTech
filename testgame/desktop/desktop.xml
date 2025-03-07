@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Desktop>
+	<Res>800x600</Res>
+	<Res>1024x768</Res>
+	<Res>1366x768</Res>
+	<Res>1280x800</Res>
+	<Res>1920x1080</Res>
+
+	<Content>..\content\</Content>
+
+	<Shaders>..\..\windows\shaders\</Shaders>
+	<Shaders>..\windows\testgame\testgame.Shared\content\</Shaders>
+</Desktop>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Screen
+	Background="intro.jpg"
+	Music="intro_music.mp3"
+	MusicStopOnExit="false"
+	FadeDuration="1000"
+	ClearColor="0,0,0"
+	FadeColor="0,0,0" >
+
+	<Controls>
+		<StaticText ID="1" Text="" Pos="0.5,0.1,0.05" Justify="center" Color="0.5,0.5,0.5" />
+		<StaticText ID="2" Text="" Pos="0.5,0.2,0.05" Justify="center" Color="0.5,0.5,0.5" />
+		<StaticText ID="10" Text="next" Pos="0.8,0.95,0.05" Justify="left" Color="0.5,0.5,0.5" Inflate="0.05" />
+	</Controls>
+</Screen>

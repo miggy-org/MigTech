@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Font
+
+	Name="Square 721"
+	UseAlpha="true"
+	AddAlpha="true"
+	DropColor="true"
+	Width="60"
+	Height="40"
+	Spacing="2" >
+
+	<Item	Char="A" Left="5" Top="12" Width="54" />
+	<Item	Char="B" Left="73" Top="12" Width="46" />
+	<Item	Char="C" Left="137" Top="12" Width="46" />
+	<Item	Char="D" Left="200" Top="12" Width="48" />
+	<Item	Char="E" Left="268" Top="12" Width="40" />
+	<Item	Char="F" Left="332" Top="12" Width="40" />
+	<Item	Char="G" Left="393" Top="12" Width="46" />
+	<Item	Char="H" Left="458" Top="12" Width="44" />
+	<Item	Char="I" Left="25" Top="76" Width="14" />
+	<Item	Char="J" Left="77" Top="76" Width="38" />
+	<Item	Char="K" Left="136" Top="76" Width="48" />
+	<Item	Char="L" Left="206" Top="76" Width="36" />
+	<Item	Char="M" Left="258" Top="76" Width="60" />
+	<Item	Char="N" Left="327" Top="76" Width="50" />
+	<Item	Char="O" Left="392" Top="76" Width="48" />
+	<Item	Char="P" Left="459" Top="76" Width="42" />
+	<Item	Char="Q" Left="5" Top="140" Width="54" />
+	<Item	Char="R" Left="74" Top="140" Width="44" />
+	<Item	Char="S" Left="137" Top="140" Width="46" />
+	<Item	Char="T" Left="203" Top="140" Width="42" />
+	<Item	Char="U" Left="265" Top="140" Width="46" />
+	<Item	Char="V" Left="326" Top="140" Width="52" />
+	<Item	Char="W" Left="386" Top="140" Width="60" />
+	<Item	Char="X" Left="454" Top="140" Width="52" />
+	<Item	Char="Y" Left="7" Top="204" Width="50" />
+	<Item	Char="Z" Left="75" Top="204" Width="42" />
+	<Item	Char="0" Left="139" Top="204" Width="42" />
+	<Item	Char="1" Left="209" Top="204" Width="30" />
+	<Item	Char="2" Left="267" Top="204" Width="42" />
+	<Item	Char="3" Left="331" Top="204" Width="42" />
+	<Item	Char="4" Left="394" Top="204" Width="44" />
+	<Item	Char="5" Left="459" Top="204" Width="42" />
+	<Item	Char="6" Left="11" Top="268" Width="42" />
+	<Item	Char="7" Left="76" Top="268" Width="40" />
+	<Item	Char="8" Left="139" Top="268" Width="42" />
+	<Item	Char="9" Left="203" Top="268" Width="42" />
+	<Item	Char=":" Left="282" Top="268" Width="12" />
+	<Item	Char="(" Left="343" Top="268" Width="18" />
+	<Item	Char=")" Left="407" Top="268" Width="18" />
+	<Item	Char="[" Left="471" Top="268" Width="18" />
+	<Item	Char="]" Left="23" Top="332" Width="18" />
+	<Item	Char="+" Left="81" Top="332" Width="30" />
+	<Item	Char="-" Left="151" Top="332" Width="18" />
+	<Item	Char="." Left="218" Top="332" Width="12" />
+	<Item	Char="&lt;" Left="273" Top="332" Width="30" />
+	<Item	Char="&gt;" Left="337" Top="332" Width="30" />
+	<Item	Char="?" Left="399" Top="332" Width="34" />
+	<Item	Char="!" Left="474" Top="332" Width="12" />
+	<Item	Char="," Left="25" Top="396" Width="14" />
+	<Item	Char="'" Left="89" Top="396" Width="14" />
+	<Item	Char=";" Left="153" Top="396" Width="14" />
+	<Item	Char="%" Left="195" Top="396" Width="58" />
+	<Item	Char="/" Left="275" Top="396" Width="26" />
+	<Item	Char=" " Left="345" Top="396" Width="15" />
+
+</Font>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.9"
+	FadeDuration="500"
+	FadeDurationInter="250" >
+
+	<Controls>
+		<PicButton ID="back" Image="arrow.png" Pos="0.08,0.1,0.15,0.1" Rotate="-90" Inflate="0.05" />
+		<PicTextButton ID="1" Image="startbtn.png" Pos="0.5,0.3,0.5,0.4" Text="play" Height="0.1" />
+		<PicTextButton ID="2" Image="startbtn.png" Pos="0.25,0.7,0.4,0.3" Text="options" Height="0.06" />
+		<PicTextButton ID="3" Image="startbtn.png" Pos="0.75,0.7,0.4,0.3" Text="about" Height="0.06" />
+	</Controls>
+</Overlay>

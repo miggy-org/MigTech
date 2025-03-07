@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	Name="Beginner Script"
+	UniqueID="beginner_script"
+	Author="ComfyChair"
+	Desc1="Good script for first timers."
+	Desc2="Really, it's not that hard."
+	Desc3="Don't even think of trying the others if you"
+	Desc4="  can't do this one."
+	Difficulty="easy"
+	Image="space"
+	Music="ingame7_music"
+	TimeLimit="600"
+	Scored="false" >
+
+	<Level
+		RotateTime="500"
+		FallTime="5000"
+		GlowTime="2000"
+		IdleTime="0"
+		ResetTime="500"
+		NumColors="1"
+		Directions="1"
+		GlowCount="2"
+		GridLevel="1"
+		FallingPieces="1" >
+
+		<Color>0.65,0.50,0.00, 1.00,0.80,0.00</Color>
+		<Color>0.50,0.00,0.50, 1.00,0.00,1.00</Color>
+		<Color>0.50,0.00,0.00, 1.00,0.00,0.00</Color>
+		<Color>0.00,0.00,0.50, 0.00,0.00,1.00</Color>
+		<Color>0.50,0.50,0.50, 1.00,1.00,1.00</Color>
+		<Color>0.00,0.50,0.25, 0.00,1.00,0.50</Color>
+	</Level>
+
+	<Level
+		FallTime="5000"
+		GlowTime="2000"
+		NumColors="1"
+		Directions="3"
+		GlowCount="2"
+		GridLevel="1"
+		FallingPieces="1" >
+	</Level>
+
+	<Level
+		FallTime="4000"
+		GlowTime="2000"
+		NumColors="2"
+		Directions="3"
+		GlowCount="2"
+		GridLevel="1"
+		FallingPieces="1" >
+	</Level>
+
+	<Level
+		FallTime="5000"
+		GlowTime="2000"
+		NumColors="1"
+		Directions="3"
+		GlowCount="2"
+		GridLevel="2"
+		FallingPieces="2" >
+	</Level>
+
+	<Level
+		FallTime="5000"
+		GlowTime="2000"
+		NumColors="2"
+		Directions="3"
+		GlowCount="2"
+		GridLevel="2"
+		FallingPieces="2" >
+	</Level>
+</Script>

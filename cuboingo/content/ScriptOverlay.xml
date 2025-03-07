@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.8"
+	FadeDurationInter="250" >
+
+	<Controls>
+		<PicButton ID="back" Image="arrow.png" Pos="0.08,0.1,0.15,0.1" Rotate="-90" Inflate="0.05" />
+		<StaticText Text="script_title" Pos="0.5,0.13,0.06" Justify="center" Color="1,1,1" />
+		<TextButton ID="1" Text="<" Pos="0.05,0.5,0.1" Justify="center" Inflate="0.05" />
+		<TextButton ID="2" Text=">" Pos="0.95,0.5,0.1" Justify="center" Inflate="0.05" />
+	</Controls>
+</Overlay>

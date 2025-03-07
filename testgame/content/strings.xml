@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- platform strings -->
+  <string name="app"> TestGame </string>
+
+  <!-- test screen strings -->
+  <string name="test1">TEST1</string>
+  <string name="test2">TEST2</string>
+  <string name="overlay">OVERLAY</string>
+  <string name="score">SCORE</string>
+  <string name="check">CHECK</string>
+
+  <!-- test overlay strings -->
+  <string name="test_overlay">TEST OVERLAY</string>
+  <string name="long_string">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+  <string name="back">BACK</string>
+
+</resources>

@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="..\..\core\AnimList.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\AudioBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\BgBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Controls.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\DemoBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Font.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Image.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Matrix.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigConst.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigDefines.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigGame.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigInclude.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MigUtil.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\MovieClip.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Object.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\OverlayBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\PerfMon.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\PersistBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\RenderBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\ScreenBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Shader.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\SoundEffect.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Timer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\core\tinyxml\tinyxml2.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cube.h" />
+    <ClInclude Include="..\main.h" />
+    <ClInclude Include="..\overlay.h" />
+    <ClInclude Include="..\screen.h" />
+    <ClInclude Include="..\texture.h" />
+    <ClInclude Include="..\..\windows\AppResource.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DesktopApp.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxDefines.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxImage.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxMatrix.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxObject.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxRender.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\DxShader.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\pch.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\windows\LegacySound.h">
+      <Filter>desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Dialog.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\core\AnimList.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\AudioBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\BgBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Controls.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\DemoBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Font.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Matrix.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\MigBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\MigGame.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\MigUtil.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\MovieClip.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\OverlayBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\PerfMon.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\PersistBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\RenderBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\ScreenBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Timer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\core\tinyxml\tinyxml2.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jaricom.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jccoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jccolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcdctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jchuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcinit.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcomapi.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcparam.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcprepct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jcsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jctrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdatadst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdatasrc.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdcoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdcolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jddctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdhuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdinput.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdmerge.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdpostct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jdtrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jerror.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jfdctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jfdctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jfdctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jidctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jidctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jidctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jmemmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jmemnobs.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jquant1.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jquant2.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libjpeg\jutils.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\png.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngerror.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngget.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngmem.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngpread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngset.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngtrans.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwrite.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cube.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\overlay.cpp" />
+    <ClCompile Include="..\screen.cpp" />
+    <ClCompile Include="..\texture.cpp" />
+    <ClCompile Include="..\..\windows\DesktopApp.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\DxImage.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\DxMatrix.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\DxObject.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\DxRender.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\DxShader.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\Platform.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\windows\LegacySound.cpp">
+      <Filter>desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Dialog.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="testgame.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="testgame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{74362dbc-1ffc-4a4c-be74-41b9214b0009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg">
+      <UniqueIdentifier>{7be8b670-d5a4-40b8-8623-953feb48c3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpng">
+      <UniqueIdentifier>{f1af1ddf-0b50-470d-86ae-2c843b3991ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{d1f8d773-58f2-48d6-88c8-f2e64528c8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{895e66ed-35e4-4586-afd4-6b2ced1a1f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="desktop">
+      <UniqueIdentifier>{796e2672-10e0-4ef5-ad9a-b6459428c335}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

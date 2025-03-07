@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	Name="Legacy Script"
+	UniqueID="legacy_script"
+	Author="ComfyChair"
+	Desc1="Original demo script with fun additions"
+	Difficulty="medium"
+	TimeLimit="360"
+	Scored="true"
+	MissCount="5"
+	Tip1="WATCH FOR STAMPS"
+	Tip2="THEY ARE WORTH EXTRA POINTS!" >
+
+	<Level
+		RotateTime="500"
+		FallTime="2500"
+		GlowTime="2000"
+		IdleTime="500"
+		ResetTime="100"
+		NumColors="1"
+		Directions="3"
+		GlowCount="2"
+		GridLevel="1"
+		FallingPieces="1"
+
+		PowerUpMultiplier="3"
+		PowerUpMultiplierDuration="30000"
+		PowerUpInvulnerabilityDuration="30000"
+
+		StampCount="2"
+		StampPeriod="5000"
+		StampProb="0"
+		StampDuration="5000"
+		StampStyle="0" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="100"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="0"
+			NoMissBonus="0"
+			AllStampsHitBonus="0" >
+		</Score>
+
+		<Color>0.65,0.50,0.00, 1.00,0.80,0.00</Color>
+		<Color>0.50,0.00,0.50, 1.00,0.00,1.00</Color>
+		<Color>0.50,0.00,0.00, 1.00,0.00,0.00</Color>
+		<Color>0.00,0.00,0.50, 0.00,0.00,1.00</Color>
+		<Color>0.50,0.50,0.50, 1.00,1.00,1.00</Color>
+		<Color>0.00,0.50,0.25, 0.00,1.00,0.50</Color>
+	</Level>
+
+	<Level
+		NumColors="2" >
+	</Level>
+
+	<Level
+		FallTime="2250"
+		GlowTime="1750"
+		StampProb="100"
+		NumColors="6" >
+	</Level>
+
+	<Level
+		GridLevel="2"
+		StampProb="0"
+		NumColors="1" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="200"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="0"
+			NoMissBonus="0"
+			AllStampsHitBonus="0" >
+		</Score>
+	</Level>
+
+	<Level
+		FallTime="2000"
+		GlowTime="1500"
+		NumColors="3" >
+	</Level>
+
+	<Level
+		FallTime="2000"
+		GlowTime="1000"
+		StampProb="100"
+		NumColors="6" >
+	</Level>
+
+	<Level
+		GlowCount="2"
+		FallTime="2500"
+		GlowTime="1500"
+		NumColors="2"
+		FallingPieces="2"
+
+		StampPeriod="5000"
+		StampProb="25"
+		StampDuration="10000"
+		StampCycle="2000"
+		StampStyle="4" >
+
+	</Level>
+
+	<Level
+		FallTime="2000"
+		NumColors="3" >
+	</Level>
+
+	<Level
+		FallTime="2000"
+		GlowTime="1500"
+		NumColors="6"
+
+		StampPeriod="5000"
+		StampProb="50"
+		StampDuration="10000"
+		StampCycle="2000"
+		StampStyle="5" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="500"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="0"
+			NoMissBonus="0"
+			AllStampsHitBonus="0" >
+		</Score>
+	</Level>
+
+	<Level
+		FallTime="2500"
+		GlowTime="1500"
+		NumColors="6"
+		FallingPieces="3" >
+	</Level>
+</Script>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{75a25d94-2b82-48e5-9111-6f4dc3b29279}</ItemsProjectGuid>
+    <ItemsRootNamespace>cuboingo</ItemsRootNamespace>
+    <ItemsProjectName>cuboingo.Shared</ItemsProjectName>
+    <SharedGUID>58bf4098-29d6-41ce-96b5-cbd1c5818cf1</SharedGUID>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AnimList.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AudioBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\BgBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Controls.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\DemoBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Dialog.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Font.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Matrix.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigGame.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MovieClip.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\OverlayBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PerfMon.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PersistBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\RenderBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\ScreenBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Timer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jaricom.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcapimin.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcapistd.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcarith.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jccoefct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jccolor.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcdctmgr.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jchuff.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcinit.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmainct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmarker.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmaster.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcomapi.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcparam.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcprepct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcsample.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jctrans.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdapimin.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdapistd.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdarith.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdatadst.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdatasrc.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdcoefct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdcolor.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jddctmgr.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdhuff.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdinput.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmainct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmarker.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmaster.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmerge.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdpostct.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdsample.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdtrans.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jerror.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctflt.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctfst.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctint.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctflt.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctfst.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctint.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemmgr.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;NO_GETENV</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemnobs.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jquant1.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jquant2.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jutils.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\png.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngerror.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngget.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngmem.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngpread.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngread.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrio.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrtran.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrutil.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngset.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngtrans.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwio.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwrite.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwtran.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwutil.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;PNG_NO_SETJMP</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\tinyxml\tinyxml2.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\adler32.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\compress.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\crc32.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\deflate.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzclose.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzlib.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzread.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzwrite.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\infback.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffast.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inflate.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inftrees.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\trees.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\uncompr.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zutil.c">
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxImage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxMatrix.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxRender.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxShader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\LocalPersist.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\Platform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\WinApp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudio.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudioSound.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CreditsScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CubeBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CubeUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CuboingoGame.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\DemoCuboingoScreens.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\EndGameScreens.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\FallingGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameCube.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameOverlays.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameScripts.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GridBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\HintGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Launcher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\LightBeam.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Particles.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\PowerUp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\ScoreKeeper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\ShadowPass.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\SplashCube.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\SplashScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Stamp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\StartOverlays.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AnimList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AudioBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\BgBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Controls.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\DemoBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Dialog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Font.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Matrix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigConst.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigDefines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigGame.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigInclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MovieClip.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\OverlayBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PerfMon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PersistBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\RenderBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\ScreenBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\SoundEffect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Timer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jerror.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jinclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemsys.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmorecfg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jpegint.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jpeglib.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jversion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\png.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngdebug.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pnginfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pnglibconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngpriv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngstruct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\tinyxml\tinyxml2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\crc32.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\deflate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzguts.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffixed.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inflate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inftrees.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\trees.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zlib.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zutil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxDefines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxImage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxMatrix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxRender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxShader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\LocalPersist.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\WinApp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudioSound.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CreditsScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeConst.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CuboingoGame.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\DemoCuboingoScreens.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\EndGameScreens.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FallingGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameCube.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameOverlays.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameScripts.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GridBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\HintGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Launcher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\LightBeam.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Particles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\PowerUp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\ScoreKeeper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\ShadowPass.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\SplashCube.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\SplashScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Stamp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\StartOverlays.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_Color.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_Tex.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_TexAlpha.hlsl">
+      <ShaderType>Pixel</ShaderType>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_MovieClip.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_OverlayBackground.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosNoTransform.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTexNoTransform.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTexTransform.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTransform.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Beam.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Cube.hlsl">
+      <ShaderType>Pixel</ShaderType>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Grid.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Shield.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Stamp.hlsl">
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Beam.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Cube.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Grid.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Shield.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Stamp.hlsl">
+      <ShaderType>Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\arrow.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\checkbox.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_01.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_02.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_03.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_04.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_05.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_06.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_07.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_08.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_09.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_10.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_11.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_12.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_13.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_15.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_16.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_17.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_18.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_19.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg1.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg2.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg3.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg4.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\cursor.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\font_arial.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\font_square721.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover1.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover2.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gamewin1.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gamewin2.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\holemap.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\intro.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\powerups.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\reflect.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\silvermap.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\slider.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\slider_bg.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\space.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\spark.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\splash.png" />
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\startbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\AboutOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\CreditsScreen.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\cuboingo.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DebugOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part2.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part3.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo3_part1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo3_part2.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo4_part1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo4_part2.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay2.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay3.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay4.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DumpLogOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\font_arial_cfg.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\font_square721_cfg.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\GameScreen.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\HighScoreOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\LoseScreen.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\OptionsOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\PauseOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script1.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script2.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script3.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script4.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script5.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script6.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\ScriptOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\SplashScreen.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\StartOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\strings.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\SummaryOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\TipsOverlay.xml" />
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\WinScreen.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\credits.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\death.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\error.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill1.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill2.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill3.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill4.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill5.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill6.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover_music.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame7_music.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame_music.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\intro_music.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\match.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\pause.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\rotate.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\same.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\splash.mp3" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\splash_exit.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\stamp.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\start.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\tap.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\win.wav" />
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\win_music.mp3" />
+  </ItemGroup>
+</Project>

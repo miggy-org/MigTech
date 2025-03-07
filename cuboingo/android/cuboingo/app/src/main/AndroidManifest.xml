@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BEGIN_INCLUDE(manifest) -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+          android:versionName="1.0">
+
+  <!-- This .apk has no Java code itself, so set hasCode to false. -->
+  <application
+      android:allowBackup="false"
+      android:fullBackupContent="false"
+      android:icon="@mipmap/cuboingo_icon"
+      android:label="@string/cuboingo_activity">
+
+    <!-- Our activity is the built-in NativeActivity framework class.
+         This will take care of integrating with our NDK code. -->
+    <activity android:name="android.app.NativeActivity"
+              android:label="@string/cuboingo_activity"
+              android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+              android:configChanges="orientation|keyboardHidden"
+              android:screenOrientation="landscape"
+              android:exported="true">
+<!-- Tell NativeActivity the name of our .so -->
+      <meta-data android:name="android.app.lib_name"
+                 android:value="cuboingo" />
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>
+<!-- END_INCLUDE(manifest) -->

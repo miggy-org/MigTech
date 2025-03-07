@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.9"
+	FadeDuration="500"
+	FadeDurationInter="250" >
+
+	<Controls>
+		<PicButton ID="back" Image="arrow.png" Pos="0.08,0.1,0.15,0.1" Rotate="-90" Inflate="0.05" />
+		<StaticText Text="options_title" Pos="0.5,0.13,0.07" Justify="center" Color="1,1,1" />
+		<StaticText Text="music" Pos="0.1,0.3,0.05" Justify="left" Color="1,1,1" />
+		<StaticText Text="sound" Pos="0.1,0.5,0.05" Justify="left" Color="1,1,1" />
+		<SliderButton ID="1" Image="slider_bg.png" Slider="slider.png" Pos="0.55,0.27,0.4,0.05" Range="0.35,0.75,0.27" Dimen="0.02,0.05" />
+		<SliderButton ID="2" Image="slider_bg.png" Slider="slider.png" Pos="0.55,0.47,0.4,0.05" Range="0.35,0.75,0.47" Dimen="0.02,0.05" />
+		<StaticText ID="3" Text="100%" Pos="0.82,0.3,0.05" Justify="left" Color="1,1,1" />
+		<StaticText ID="4" Text="100%" Pos="0.82,0.5,0.05" Justify="left" Color="1,1,1" />
+		<CheckBoxButton ID="5" Image="checkbox.png" Pos="0.1,0.7,0.04,0.04" Text="reflections" Height="0.05" />
+		<CheckBoxButton ID="6" Image="checkbox.png" Pos="0.6,0.7,0.04,0.04" Text="shadows" Height="0.05" />
+		<CheckBoxButton ID="7" Image="checkbox.png" Pos="0.7,0.85,0.04,0.04" Text="perf" Height="0.05" />
+	</Controls>
+</Overlay>

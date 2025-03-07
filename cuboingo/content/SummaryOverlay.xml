@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.8"
+	FadeDurationInter="500" >
+
+	<Controls>
+		<StaticText ID="1" Text="summary_timed_bonus" Pos="0.1,0.2,0.04" Justify="left" Visible="false" />
+		<StaticText ID="2" Text="summary_no_miss_bonus" Pos="0.1,0.4,0.04" Justify="left" Visible="false" />
+		<StaticText ID="3" Text="summary_all_stamps_bonus" Pos="0.1,0.6,0.04" Justify="left" Visible="false" />
+		<StaticText ID="4" Text="0" Pos="0.7,0.2,0.05" Justify="left" Visible="false" />
+		<StaticText ID="5" Text="0" Pos="0.7,0.4,0.05" Justify="left" Visible="false" />
+		<StaticText ID="6" Text="0" Pos="0.7,0.6,0.05" Justify="left" Visible="false" />
+		<StaticText ID="7" Text="tap_to_continue" Pos="0.5,0.8,0.05" Justify="center" Visible="false" />
+	</Controls>
+</Overlay>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<watchdog period="5" />
+	<perfmon active="true" />
+
+	<fonts>
+		<global image="font_square721.png" xml="font_square721_cfg.xml" />
+	</fonts>
+</config>

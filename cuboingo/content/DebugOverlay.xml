@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.8"
+	FadeDurationInter="250" >
+
+	<Controls>
+		<PicButton ID="back" Image="arrow.png" Pos="0.08,0.1,0.15,0.1" Rotate="-90" Inflate="0.05" />
+		<StaticText Text="DEBUG" Pos="0.5,0.13,0.06" Justify="center" Color="1,1,1" />
+		<PicTextButton ID="1" Image="startbtn.png" Pos="0.25,0.35,0.4,0.2" Text="VIEW" Height="0.06" />
+		<PicTextButton ID="2" Image="startbtn.png" Pos="0.75,0.35,0.4,0.2" Text="DUMP" Height="0.06" />
+		<PicTextButton ID="3" Image="startbtn.png" Pos="0.25,0.6,0.4,0.2" Text="SD CARD" Height="0.06" />
+		<PicTextButton ID="4" Image="startbtn.png" Pos="0.75,0.6,0.4,0.2" Text="DELETE" Height="0.06" />
+		<StaticText ID="5" Text="" Pos="0.5,0.85,0.06" Justify="center" Color="1,1,1" />
+	</Controls>
+</Overlay>

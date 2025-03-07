@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	Name="Tutorial Script"
+	UniqueID="tutorial_script"
+	Author="ComfyChair"
+	Desc1="Select to learn how to play"
+	Difficulty="trivial"
+	Scored="false"
+	Demo="intro_demo" >
+</Script>

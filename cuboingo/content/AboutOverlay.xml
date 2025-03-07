@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.8"
+	FadeDurationInter="250" >
+
+	<Controls>
+		<PicButton ID="back" Image="arrow.png" Pos="0.08,0.1,0.15,0.1" Rotate="-90" Inflate="0.05" />
+		<StaticText Text="about_title" Pos="0.5,0.13,0.06" Justify="center" Color="1,1,1" />
+		<StaticText Text="game_design" Pos="0.05,0.35,0.06" Justify="left" Color="1,1,1" />
+		<TextButton ID="1" Text="chris_senn" Pos="0.95,0.50,0.06" Justify="right" Color="1,1,1" AnimEnabled="false" />
+		<StaticText Text="programming" Pos="0.05,0.70,0.06" Justify="left" Color="1,1,1" />
+		<TextButton ID="2" Text="miguel_jordan" Pos="0.95,0.85,0.06" Justify="right" Color="1,1,1" AnimEnabled="false" />
+	</Controls>
+</Overlay>

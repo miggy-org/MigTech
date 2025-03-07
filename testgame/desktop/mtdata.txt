@@ -1,0 +1,3 @@
+MIG_TECH_DATA_1
+xtest	2	0.000000
+ytest	2	0.000000

@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{64ca889b-f743-4357-af68-b917e2897b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{18f47221-7b08-4d0b-9d22-fc9bf6edfca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg">
+      <UniqueIdentifier>{601be89f-a05f-4182-bb31-d698484bfa37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpng">
+      <UniqueIdentifier>{61fc41c6-4c4b-4118-a72b-bbcfa2dc81d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{3afb80d6-db09-4968-9b01-b3aeedbd506e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{947fe132-2e8b-49f9-917c-dda4166c6068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{f40b3dd2-d83c-4495-bb84-7cfef6bb3a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{e8694c9e-0557-43cd-b9fe-6092b8d6cb5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AnimList.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Matrix.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigConst.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigDefines.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigGame.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigInclude.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigUtil.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Object.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\RenderBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Shader.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Timer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxDefines.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxMatrix.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxObject.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxRender.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxShader.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\WinApp.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxImage.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Image.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jconfig.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdct.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jerror.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jinclude.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemsys.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmorecfg.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jpegint.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jpeglib.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jversion.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\png.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngconf.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngdebug.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pnginfo.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pnglibconf.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngpriv.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngstruct.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AudioBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\SoundEffect.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudio.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudioSound.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\BgBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\ScreenBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PersistBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\LocalPersist.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\tinyxml\tinyxml2.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Font.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PerfMon.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\OverlayBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MovieClip.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Controls.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CuboingoGame.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\SplashScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeConst.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\SplashCube.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CubeUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GridBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\StartOverlays.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameScripts.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameOverlays.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\GameCube.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\HintGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FallingGrid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Launcher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\LightBeam.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\ScoreKeeper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Particles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Stamp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\EndGameScreens.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\CreditsScreen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\DemoBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\DemoCuboingoScreens.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigBase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\ShadowPass.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Dialog.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\PowerUp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AnimList.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Matrix.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigGame.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigUtil.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Timer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxMatrix.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxObject.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxRender.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxShader.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\WinApp.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\Platform.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\DxImage.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jaricom.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jccoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jccolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcdctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jchuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcinit.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcomapi.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcparam.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcprepct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jcsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jctrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdatadst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdatasrc.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdcoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdcolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jddctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdhuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdinput.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdmerge.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdpostct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jdtrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jerror.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jfdctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jidctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jmemnobs.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jquant1.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jquant2.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libjpeg\jutils.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\png.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngerror.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngget.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngmem.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngpread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngread.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngrutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngset.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngtrans.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwio.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwrite.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwtran.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\libpng\pngwutil.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudio.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\XAudioSound.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\BgBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\ScreenBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\LocalPersist.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\tinyxml\tinyxml2.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PersistBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Font.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\PerfMon.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\OverlayBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MovieClip.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Controls.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CuboingoGame.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\SplashScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CubeBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\SplashCube.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CubeUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GridBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\StartOverlays.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameScripts.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\AudioBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameOverlays.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\GameCube.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\HintGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\FallingGrid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Launcher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\LightBeam.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\ScoreKeeper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Particles.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Stamp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\EndGameScreens.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\CreditsScreen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\DemoBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\DemoCuboingoScreens.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\MigBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\RenderBase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\ShadowPass.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\core\Dialog.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\PowerUp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_Color.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_Tex.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosNoTransform.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTexNoTransform.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTexTransform.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Cube.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Cube.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Grid.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Grid.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_PosTransform.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Beam.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Beam.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Stamp.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Stamp.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtps_TexAlpha.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_OverlayBackground.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\windows\shaders\mtvs_MovieClip.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cps_Shield.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)Content\cvs_Shield.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\font_square721.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\splash.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\silvermap.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\holemap.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\startbtn.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\arrow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\checkbox.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\slider_bg.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\slider.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\space.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\spark.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover1.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover2.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gamewin1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\gamewin2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_01.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_02.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_03.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_04.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_05.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_06.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_07.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_08.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_09.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_10.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_11.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_12.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_13.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_15.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_16.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_17.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_18.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_19.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg1.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg2.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg3.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\credits_bg4.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\cursor.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\intro.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\reflect.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\font_arial.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)..\..\..\content\powerups.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\font_square721_cfg.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\SplashScreen.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\strings.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\StartOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\AboutOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\OptionsOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\ScriptOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script2.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script3.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script4.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script5.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\script6.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\PauseOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\TipsOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\SummaryOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\LoseScreen.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\WinScreen.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\HighScoreOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\CreditsScreen.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\GameScreen.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part2.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo2_part3.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo3_part1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo3_part2.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo4_part1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\demo4_part2.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay1.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay2.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay3.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DemoGameplay4.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DebugOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\DumpLogOverlay.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\cuboingo.xml">
+      <Filter>assets</Filter>
+    </Xml>
+    <Xml Include="$(MSBuildThisFileDirectory)..\..\..\content\font_arial_cfg.xml">
+      <Filter>assets</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\splash.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill1.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\splash_exit.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame_music.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\ingame7_music.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\death.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\error.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill2.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill3.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill4.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill5.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\fill6.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\match.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\pause.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\rotate.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\same.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\start.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\tap.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\win.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\gameover_music.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\win_music.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\credits.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\intro_music.mp3">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="$(MSBuildThisFileDirectory)..\..\..\content\stamp.wav">
+      <Filter>assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

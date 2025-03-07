@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	Name="One At A Time"
+	UniqueID="one_by_one_script"
+	Author="ComfyChair"
+	Desc1="Only a single piece dropped at a time"
+	Desc2="Should be easy"
+	Desc3="Yeah, that's it, easy..."
+	Difficulty="hard"
+	Image="space.png"
+	Music="ingame7_music.mp3"
+	Scored="true"
+	Tip1="GET BONUS POINTS FOR FINISHING"
+	Tip2="QUICKLY, AND FOR MAKING"
+	Tip3="NO MISTAKES!" >
+
+	<Level
+		TimeLimit="60"
+		RotateTime="500"
+		FallTime="5000"
+		GlowTime="1000"
+		ResetTime="200"
+		IdleTime="0"
+		NumColors="2"
+		Directions="3"
+		MissCount="3"
+		GlowCount="1"
+		GridLevel="1"
+		GridFaceLock="1"
+		LaunchAxisStyle="1"
+		FallingPieces="1"
+		FallingHoleLimit="1" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="100"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="10"
+			NoMissBonus="1000" >
+		</Score>
+
+		<Color>0.65,0.50,0.00, 1.00,0.80,0.00</Color>
+		<Color>0.50,0.00,0.50, 1.00,0.00,1.00</Color>
+		<Color>0.50,0.00,0.00, 1.00,0.00,0.00</Color>
+		<Color>0.00,0.00,0.50, 0.00,0.00,1.00</Color>
+		<Color>0.50,0.50,0.50, 1.00,1.00,1.00</Color>
+		<Color>0.00,0.50,0.25, 0.00,1.00,0.50</Color>
+	</Level>
+
+	<Level
+		FallTime="5000"
+		NumColors="6"
+		GridFaceLock="1"
+		LaunchAxisStyle="1"
+		FallingPieces="1" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="2"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="2" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="200"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="10"
+			NoMissBonus="1000" >
+		</Score>
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="2"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="4" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="2"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="8" >
+	</Level>
+
+	<Level
+		TimeLimit="90"
+		FallTime="3000"
+		GridLevel="3"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="14" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="3"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="10" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="3"
+		GridFaceLock="1"
+		LaunchAxisStyle="2"
+		FallingPieces="8" >
+	</Level>
+
+	<Level
+		TimeLimit="60"
+		Directions="1"
+		FallTime="10000"
+		GridLevel="2"
+		GridFaceLock="2"
+		LaunchAxisStyle="1"
+		FallingPieces="10"
+
+		PowerUpMultiplier="3"
+		PowerUpMultiplierDuration="30000"
+		PowerUpInvulnerabilityDuration="30000"
+
+		StampCount="2"
+		StampPeriod="2000"
+		StampProb="25"
+		StampDuration="10000"
+		StampCycle="2000"
+		StampStyle="4" >
+	</Level>
+
+	<Level
+		Directions="1"
+		FallTime="10000"
+		GridLevel="2"
+		GridFaceLock="2"
+		LaunchAxisStyle="1"
+		FallingPieces="14" >
+	</Level>
+
+	<Level
+		Directions="1"
+		FallTime="20000"
+		GridLevel="2"
+		GridFaceLock="2"
+		LaunchAxisStyle="1"
+		FallingPieces="40" >
+	</Level>
+
+	<Level
+		Directions="3"
+		FallTime="3000"
+		GridLevel="2"
+		GridFaceLock="1"
+		LaunchAxisStyle="1"
+		FallingPieces="3" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridLevel="2"
+		GridFaceLock="2"
+		LaunchAxisStyle="1"
+		FallingPieces="3" >
+	</Level>
+
+	<Level
+		TimeLimit="120"
+		FallTime="3000"
+		GridLevel="3"
+		GridFaceLock="2"
+		LaunchAxisStyle="1"
+		FallingPieces="3" >
+
+		<Score
+			PieceMatch="10"
+			SideComplete="500"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			TimedBonusPerSecond="10"
+			NoMissBonus="1000" >
+		</Score>
+	</Level>
+</Script>

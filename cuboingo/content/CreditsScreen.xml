@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Screen
+	FadeDuration="1000"
+	ClearColor="0,0,0"
+	FadeColor="0,0,0" >
+
+	<Controls>
+	</Controls>
+</Screen>

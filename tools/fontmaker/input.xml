@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontmaker
+
+	width="512"
+	height="512"
+	spacing="1"
+	useascent="true" >
+
+	<item char="A" />
+	<item char="B" />
+	<item char="C" />
+	<item char="D" />
+	<item char="E" />
+	<item char="F" />
+	<item char="G" />
+	<item char="H" />
+	<item char="I" />
+	<item char="J" />
+	<item char="K" />
+	<item char="L" />
+	<item char="M" />
+	<item char="N" />
+	<item char="O" />
+	<item char="P" />
+	<item char="Q" />
+	<item char="R" />
+	<item char="S" />
+	<item char="T" />
+	<item char="U" />
+	<item char="V" />
+	<item char="W" />
+	<item char="X" />
+	<item char="Y" />
+	<item char="Z" />
+	<item char="0" />
+	<item char="1" />
+	<item char="2" />
+	<item char="3" />
+	<item char="4" />
+	<item char="5" />
+	<item char="6" />
+	<item char="7" />
+	<item char="8" />
+	<item char="9" />
+	<item char=":" />
+	<item char="(" />
+	<item char=")" />
+	<item char="[" />
+	<item char="]" />
+	<item char="+" />
+	<item char="-" />
+	<item char="." />
+	<item char="&lt;" />
+	<item char="&gt;" />
+	<item char="?" />
+	<item char="!" />
+	<item char="," />
+	<item char="'" />
+	<item char=";" />
+	<item char="%" />
+	<item char="/" />
+	<item char=" " />
+
+</fontmaker>

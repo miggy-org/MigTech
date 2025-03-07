@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- general strings -->
+  <string name="app"> Cuboingo </string>
+  <string name="back">BACK</string>
+  <string name="high">HIGH</string>
+
+  <!-- splash screen strings -->
+  <string name="play">PLAY</string>
+  <string name="options">OPTIONS</string>
+  <string name="about">ABOUT</string>
+  <string name="quit">QUIT</string>
+
+  <!-- script overlay strings -->
+  <string name="script_title">CHOOSE A GAME</string>
+
+  <!-- options overlay strings -->
+  <string name="options_title">OPTIONS</string>
+  <string name="music">MUSIC</string>
+  <string name="sound">SOUND</string>
+  <string name="reflections">REFLECTIONS</string>
+  <string name="shadows">SHADOWS</string>
+  <string name="perf">PERF</string>
+
+  <!-- about overlay strings -->
+  <string name="about_title">ABOUT CUBOINGO...</string>
+  <string name="game_design">GAME DESIGN</string>
+  <string name="chris_senn">CHRISTIAN SENN</string>
+  <string name="programming">PROGRAMMING</string>
+  <string name="miguel_jordan">MIGUEL JORDAN</string>
+
+  <!-- game screen strings -->
+  <string name="paused">PAUSED</string>
+  <string name="tap_to_continue">TAP TO CONTINUE...</string>
+  <string name="time">TIME</string>
+  <string name="cube">CUBE</string>
+  <string name="bumps">BUMPS</string>
+  <string name="slips">SLIPS</string>
+
+  <!-- summary overlay strings -->
+  <string name="summary_timed_bonus">TIMED BONUS:</string>
+  <string name="summary_no_miss_bonus">NO MISS BONUS:</string>
+  <string name="summary_all_stamps_bonus">ALL STAMPS BONUS:</string>
+
+  <!-- end game strings -->
+  <string name="game_over">GAME OVER</string>
+  <string name="final_score">FINAL SCORE</string>
+  <string name="your_score">YOURS</string>
+  <string name="high_score">HIGH</string>
+  <string name="congrats">CONGRATULATIONS</string>
+
+  <!-- end game strings -->
+  <string name="next">NEXT</string>
+  <string name="demo1_line1">TO PLAY: SWIPE THE CUBE TO</string>
+  <string name="demo1_line2">ROTATE AS SEEN BELOW...</string>
+  <string name="demo1_line3">GO AHEAD AND TRY IT NOW</string>
+  <string name="demo1_line4">TAP NEXT TO CONTINUE</string>
+  <string name="demo2_line1">ROTATE THE CUBE TO MATCH THE</string>
+  <string name="demo2_line2">FALLING PIECES</string>
+  <string name="demo2_line3">TAP A GLOWING ARROW TO</string>
+  <string name="demo2_line4">MAKE A PIECE FALL FASTER</string>
+  <string name="demo2_line5">DON'T MISS!</string>
+  <string name="demo3_line1">BUMP A FILLED SIDE</string>
+  <string name="demo3_line2">FOR BONUS POINTS</string>
+  <string name="demo3_line3">BUT YOU WILL NEED TO</string>
+  <string name="demo3_line4">FILL IT AGAIN</string>
+  <string name="demo4_line1">BEWARE OF EVIL PIECES!</string>
+  <string name="demo4_line2">YOU WILL HAVE TO MOVE FAST!</string>
+
+</resources>

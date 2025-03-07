@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Overlay
+	ParentAlpha="0.5"
+	FadeDurationInter="100" >
+
+	<Controls>
+		<StaticText ID="1" Text="paused" Pos="0.5,0.3,0.15" Justify="center" />
+		<PicTextButton ID="2" Image="startbtn.png" Pos="0.25,0.7,0.4,0.3" Text="play" Height="0.07" />
+		<PicTextButton ID="3" Image="startbtn.png" Pos="0.75,0.7,0.4,0.3" Text="quit" Height="0.07" />
+	</Controls>
+</Overlay>

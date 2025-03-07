@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	StartLevel="2"
+	Name="Experimental Script"
+	UniqueID="exp_script"
+	Author="ComfyChair"
+	Desc1="Like a box of chocolates"
+	Difficulty="insane"
+	Scored="true"
+	Image="space.png"
+	Music="ingame7_music.mp3"
+	Tip1="THIS IS AN EXPERIMENTAL SCRIPT"
+	Tip2="I USE THIS FOR TESTING NEW FEATURES"
+	Tip3="YOU HAVE BEEN WARNED" >
+
+	<Visual>
+		<Cube Texture="silvermap.jpg" Reflect="reflect.jpg" Color="1.0,1.0,1.0" Intensity="0.5" />
+	</Visual>
+
+	<Level
+		TimeLimit="120"
+		RotateTime="500"
+		FallTime="5000"
+		GlowTime="1000"
+		ResetTime="200"
+		MissCount="5"
+		IdleTime="0"
+		NumColors="6"
+		Directions="3"
+		GlowCount="1"
+		GridLevel="1"
+		GridFaceLock="1"
+		LaunchAxisStyle="1"
+		FallingPieces="3"
+		FallingHoleLimit="1"
+
+		PowerUpMultiplier="3"
+		PowerUpMultiplierDuration="30000"
+		PowerUpInvulnerabilityMaximum="5"
+
+		StampCount="2"
+		StampPeriod="2000"
+		StampProb="100"
+		StampDuration="10000"
+		StampCycle="2000"
+		StampStyle="4" >
+
+		<Score
+			PieceMatch="100"
+			SideComplete="500"
+			StampMatch="1000"
+			TapMax="100"
+
+			PieceMiss="1000"
+			StampMiss="1000"
+
+			StampChainMultiplier="2"
+			StampChainTime="2000"
+
+			TimedBonusPerSecond="10"
+			NoMissBonus="2000"
+			AllStampsHitBonus="5000" >
+		</Score>
+
+		<Color>0.65,0.50,0.00, 1.00,0.80,0.00</Color>
+		<Color>0.50,0.00,0.50, 1.00,0.00,1.00</Color>
+		<Color>0.50,0.00,0.00, 1.00,0.00,0.00</Color>
+		<Color>0.00,0.00,0.50, 0.00,0.00,1.00</Color>
+		<Color>0.50,0.50,0.50, 1.00,1.00,1.00</Color>
+		<Color>0.00,0.50,0.25, 0.00,1.00,0.50</Color>
+	</Level>
+
+	<Level
+		FallTime="4000"
+		GridLevel="2"
+		GridFaceLock="0"
+		GlowTime="2000"
+		GlowCount="2"
+		LaunchAxisStyle="2"
+		FallingPieces="3"
+		FallingHoleLimit="0"
+
+		BurstProb="25"
+		BurstFallTime="6000"
+
+		EvilProb="25"
+		EvilFallTime="10000"
+		EvilPeriod="500"
+		EvilStyle="2"
+		EvilMaxColor="2"
+		EvilAxisLock="2"
+
+		EvilBurstProb="25"
+		EvilBurstFallTime="10000"
+		EvilBurstPeriod="1000" >
+	</Level>
+</Script>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script
+	Name="Can You Finish This"
+	UniqueID="tough_script"
+	Author="ComfyChair"
+	Desc1="Mistakes will not count,"
+	Desc2="But can you finish it?"
+	Difficulty="hard"
+	TimeLimit="600"
+	Scored="true"
+	Tip1="USE THE BUMPERS FOR EXTRA POINTS" >
+
+	<Level
+		RotateTime="500"
+		FallTime="10000"
+		GlowTime="1000"
+		IdleTime="0"
+		ResetTime="500"
+		NumColors="6"
+		Directions="1"
+		GlowCount="1"
+		GridLevel="1"
+		GridFaceLock="0"
+		LaunchAxisStyle="1"
+		FallingPieces="5"
+		FallingHoleLimit="3" >
+
+		<Score
+			PieceMatch="0"
+			SideComplete="100"
+
+			PieceMiss="100"
+
+			StampChainMultiplier="2"
+			StampChainTime="3000" >
+		</Score>
+
+		<Color>0.65,0.50,0.00, 1.00,0.80,0.00</Color>
+		<Color>0.50,0.00,0.50, 1.00,0.00,1.00</Color>
+		<Color>0.50,0.00,0.00, 1.00,0.00,0.00</Color>
+		<Color>0.00,0.00,0.50, 0.00,0.00,1.00</Color>
+		<Color>0.50,0.50,0.50, 1.00,1.00,1.00</Color>
+		<Color>0.00,0.50,0.25, 0.00,1.00,0.50</Color>
+	</Level>
+
+	<Level
+		FallingPieces="8"
+		FallTime="10000" >
+	</Level>
+
+	<Level
+		FallingPieces="5"
+		FallTime="5000" >
+	</Level>
+
+	<Level
+		FallingPieces="10"
+		FallTime="5000" >
+	</Level>
+
+	<Level
+		GridFaceLock="1"
+		FallTime="3000"
+		GridLevel="2"
+		FallingPieces="2"
+
+		StampCount="2"
+		StampStyle="1" >
+
+		<Score
+			PieceMatch="50"
+			SideComplete="200"
+			StampMatch="500"
+
+			PieceMiss="500"
+
+			StampChainMultiplier="2"
+			StampChainTime="3000" >
+		</Score>
+
+	</Level>
+
+	<Level
+		FallTime="2000" >
+	</Level>
+
+	<Level
+		FallTime="2000"
+		FallingPieces="3"
+		GridFaceLock="2" >
+	</Level>
+
+	<Level
+		FallTime="2000"
+		FallingPieces="3"
+
+		EvilProb="20"
+		EvilFallTime="5000"
+		EvilPeriod="1000"
+		EvilStyle="2"
+		EvilAxisLock="2" >
+	</Level>
+
+	<Level
+		FallTime="3000"
+		Directions="3" >
+
+		<Score
+			PieceMatch="100"
+			SideComplete="500"
+			StampMatch="1000"
+
+			PieceMiss="1000"
+
+			StampChainMultiplier="2"
+			StampChainTime="3000" >
+		</Score>
+	</Level>
+
+	<Level
+		FallTime="3000"
+		GridFaceLock="0"
+		EvilPeriod="500"
+		LaunchAxisStyle="2" >
+	</Level>
+
+	<Level
+		GridLevel="3"
+
+		PowerUpMultiplier="3"
+		PowerUpMultiplierDuration="30000"
+		PowerUpInvulnerabilityDuration="30000"
+
+		StampCount="2"
+		StampPeriod="2000"
+		StampProb="25"
+		StampDuration="10000"
+		StampCycle="2000"
+		StampStyle="4" >
+	</Level>
+
+	<Level
+		EvilProb="0"
+		LaunchAxisStyle="0" >
+	</Level>
+</Script>

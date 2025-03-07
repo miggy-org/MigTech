@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{831d73ae-0ae4-415f-8efe-a6a2412386c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zlib">
+      <UniqueIdentifier>{1a89f36e-a72a-4e7f-902c-3bae63585686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibPNG">
+      <UniqueIdentifier>{7856a068-1140-4d49-a969-e675db9f5d54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fontmaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\tinyxml\tinyxml2.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fontmaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\tinyxml\tinyxml2.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\adler32.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\compress.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\crc32.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\deflate.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzclose.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzlib.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzread.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\gzwrite.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\infback.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inffast.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inflate.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\inftrees.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\trees.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\uncompr.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\zlib\zutil.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\png.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngerror.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngget.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngmem.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngpread.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngread.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrio.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrtran.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngrutil.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngset.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngtrans.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwio.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwrite.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwtran.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\libpng\pngwutil.c">
+      <Filter>LibPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fontmaker.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="fontmaker.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

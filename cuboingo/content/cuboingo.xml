@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<watchdog period="5" lookback="1" />
+	<perfmon active="true" />
+
+	<fonts>
+		<global image="font_square721.png" xml="font_square721_cfg.xml" />
+		<debug image="font_arial.png" xml="font_arial_cfg.xml" />
+	</fonts>
+
+	<Scripts>
+		<Script>script1.xml</Script>
+		<Script>script2.xml</Script>
+		<Script>script3.xml</Script>
+		<Script>script4.xml</Script>
+		<Script>script5.xml</Script>
+		<Script>script6.xml</Script>
+	</Scripts>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Screen
+	Music="win_music.mp3"
+	FadeDuration="1000"
+	ClearColor="0,0,0"
+	FadeColor="0,0,0" >
+
+	<Background Type="cycle" Image="gamewin1.png" Image2="gamewin2.png" Period="2000" />
+
+	<Controls>
+	</Controls>
+</Screen>
